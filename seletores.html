@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button:hover {
+            /* pseudo elemento */
+            background-color: brown;
+        }
+
+        li {color: blue;}
+        li:first-child {color: green;}
+        li:last-child {color: red;}
+        li:nth-child(3) {color: orange;} /* começando a conta do 1 */
+
+        p:first-child i {background-color:yellow}
+
+        input[type="password"] {color: darkmagenta}
+        input[type="submit"] {border-radius:5x; color: yellow; background-color: black;}
+
+    </style>
+
+</head>
+<body>
+
+    <button>Clique Aqui</button>
+    <br>
+    <br>
+    <br>
+    <button>Clique Aqui</button>
+
+    <br>
+    <br>
+    <br>
+    <ul id="lista">
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ul>
+    <br><br>
+    <div>
+        <p>Lorem, ipsum <i>dolor sit amet consectetur adipisicing</i> elit. Illo ullam maiores sapiente mollitia optio modi quis quae itaque dignissimos error et eligendi praesentium, repellendus facilis nemo possimus cum impedit earum.</p>
+        <p>Lorem, ipsum <i>dolor sit amet consectetur adipisicing</i> elit. Illo ullam maiores sapiente mollitia optio modi quis quae itaque dignissimos error et eligendi praesentium, repellendus facilis nemo possimus cum impedit earum.</p>
+        <p>Lorem, ipsum <i>dolor sit amet consectetur adipisicing</i> elit. Illo ullam maiores sapiente mollitia optio modi quis quae itaque dignissimos error et eligendi praesentium, repellendus facilis nemo possimus cum impedit earum.</p>
+        
+    </div>
+
+    <form action="">
+        <label for="">Nome</label>
+        <input type="text">
+        <br><br>
+        <label for="">Password</label>
+        <input type="password">
+        <br><br>
+        <label for="">Confirma Password</label>
+        <input type="password">
+        <br><br>
+        <input type="submit">
+
+
+    </form>
+    
+    
+</body>
+</html>
